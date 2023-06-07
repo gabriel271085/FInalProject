@@ -1,4 +1,4 @@
-name: dotnet package
+name: Ci/CD Mojix
 
 on: [push]
 
