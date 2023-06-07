@@ -1,0 +1,98 @@
+{
+  "uuid": "eef82900b42d48c59aff5abaa31f5676",
+  "historyId": "Create a new product",
+  "fullName": "Create a new product",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-06ION51"
+    },
+    {
+      "name": "feature",
+      "value": "CreateProduct"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "Create a new product",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have an authentication endpoint to the site",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686172189162,
+      "stop": 1686172189862
+    },
+    {
+      "name": "And  endpoint to create a product",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686172189862,
+      "stop": 1686172189864
+    },
+    {
+      "name": "When  A POST request is sent",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686172189864,
+      "stop": 1686172189995
+    },
+    {
+      "name": "Then  valid response code is expected",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686172189995,
+      "stop": 1686172189995
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686172189157,
+  "stop": 1686172189997
+}

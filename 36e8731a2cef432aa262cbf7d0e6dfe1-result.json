@@ -1,0 +1,83 @@
+{
+  "uuid": "ff828cd250cd4eaa93f205c8aa0f8da5",
+  "historyId": "Retrieve products by category",
+  "fullName": "Retrieve products by category",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az246-552"
+    },
+    {
+      "name": "feature",
+      "value": "Get products by category"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "Retrieve products by category",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  An endpoint with the query parameter 'category' set to '5'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686174010468,
+      "stop": 1686174010470
+    },
+    {
+      "name": "When  I send a get request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686174010470,
+      "stop": 1686174010494
+    },
+    {
+      "name": "Then  The response should have a status code of 'OK'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686174010494,
+      "stop": 1686174010496
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686174010468,
+  "stop": 1686174010496
+}
